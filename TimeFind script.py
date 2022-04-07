@@ -18,5 +18,7 @@ if __name__ == "__main__":
     print("Trent Lind")
 
     print("Trento Lind0")
+
+    print("Newest Commit")
     
     #dfk;skf;ldskf;lskf;slakd
