@@ -12,7 +12,11 @@ def currentJulianTime():
 if __name__ == "__main__":
     print(__name__)
     currentTime()
+
+    print("Hello World")
     
     print("Trent Lind")
+
+    print("Trento Lind0")
     
     #dfk;skf;ldskf;lskf;slakd
