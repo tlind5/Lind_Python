@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Trent's Portfolio </title>
+    <link href ="style.css" type ="text/css" rel = "stylesheet">
+</head>
+<style>
+ body {
+  background-color: GhostWhite;
+  }
+
+main {
+margin-left: auto;
+margin-right: auto;
+width: 900px;
+}
+
+.navigation{
+margin-left: auto;
+margin-right: auto;
+width: 900px;
+}
+
+ul#topBar {
+margin-left: 0px;
+margin-right: 400 px;
+background-image: linear-gradient(to right,red,darkred,firebrick);
+opacity: 80%;
+height: 50px;
+width: 900px;
+border-radius: 10px;
+}
+
+h1 {
+  color: Black;
+  display: block;
+  width: 25%;
+  margin-bottom: 3px;
+  }
+
+div#aboutMe, div#College {
+  width: 900px;
+  }
+
+h2 {
+margin-bottom:0px;
+}
+
+p {
+margin-top: 0px;
+}
+
+a#main,a#matlab,a#arduino,a#python,a#hydro {
+  color: black;
+  padding: 5px; /*space around word*/
+  background-color: lightblue;
+  border: 2px solid darkblue; /*thickness + dashed,dotted,or solid, + color*/
+  border-radius: 5px;
+  text-decoration: none; /*removes udnerlines from links*/
+  text-align: center; /*text align*/
+  display: inline-block; /*in middle of block */
+  margin-top: 10px;
+  margin-left: 5px;
+  	}
+
+#main:hover,#matlab:hover,#arduino:hover,#python:hover,#hydro:hover {
+  color : Crimson;
+  background-color: lightpink;
+  font-size: 110%;
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+.picture{
+  object-fit: contain;
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+  width: 15%;
+  height: 15%;
+  cursor: not-allowed;
+}
+
+</style>
+
+<body>
+
+<nav class ="navigation">
+  <ul id = "topBar">
+	  <li><a href = "./websiteCode.html" id ="main"> Main Page</a></li>
+	  <li><a href = "./matlabCode.html" id ="matlab"> Matlab Programs</a></li>
+	  <li><a href = "./arduinoCode.html" id = "arduino"> Arduino Programs</a></li>
+	  <li><a href = "./pythonCode.html" id = "python"> Python Programs</a></li>
+	  <li><a href = "./hydraulicsDocuments.html" id = "hydro"> Hydraulics</a></li>
+  </ul>
+</nav>
+
+<main>
+	<h1> Trent Lind </h1>
+    <img class = "picture" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Nebraska_Cornhuskers_logo%2C_1992%E2%80%932003.svg/740px-Nebraska_Cornhuskers_logo%2C_1992%E2%80%932003.svg.png" alt ="Huskers" />
+
+		<div id = "aboutMe">
+		<h2> About Me </h2>
+      		<p>My name is Trent and i'm from Severance, Colorado. I grew up living and working on my family farm fo rmy dad and uncles. Growing up, I played tons of soccer and am still an avid fan to this day. I went to Windosr Highschool where I was a member of the National Honor Society and the FFA. </p>
+
+		</div>
+
+		<div id = "College">
+		<h2> College Career </h2>
+     		 <p>I go to the <strong><a href = "https://www.unl.edu/" target="_blank">University of Nebraska-Lincoln</a></strong>.</p>
+     		 <p> I am currently going into my Senior year and will graduate in December of 2021.</p>
+
+		</div>
+</main>
+
+</body>
+
+
+</html>
