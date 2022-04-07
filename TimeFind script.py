@@ -20,7 +20,9 @@ if __name__ == "__main__":
     print("Trento Lind0")
 
     print("Newest Commit")
-    
+
+    x = 10
+
     #jfkdsajfklsajflsdaj new test test test
     
     #dfk;skf;ldskf;lskf;slakd
