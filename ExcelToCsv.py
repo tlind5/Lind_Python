@@ -3,7 +3,7 @@ import pandas as pd
 df = pd.read_excel(
     r"C:\Users\WKYTUK0\OneDrive-Deere&Co\OneDrive - Deere & Co\Documents\EDP Rotation 1\Excel Documents\Python Testing\Cotton.xlsx")
 
-df.to_csv(r'C:\Users\WKYTUK0\OneDrive-Deere&Co\OneDrive - Deere & Co\Documents\EDP Rotation 1\Excel Documents\Python Testing\Cotton2.csv',
+df.to_csv(r'C:\Users\WKYTUK0\OneDrive-Deere&Co\OneDrive - Deere & Co\Documents\EDP Rotation 1\Excel Documents\Python Testing\Cotton.csv',
           index = False)
 
 ########################################################################################################################
