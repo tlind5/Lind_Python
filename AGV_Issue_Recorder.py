@@ -15,3 +15,5 @@ def openCSV():
 
     for i in range(len(df)):
          print(df[i])
+
+openCSV()
