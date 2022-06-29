@@ -17,6 +17,6 @@ def openCSV():
     #for i in range(len(df)):
      #    print(df[i])
 
-openCSV()
-
-print('All done!')
+if __name__ = "__main__":
+    openCSV()
+    print('All done!')
